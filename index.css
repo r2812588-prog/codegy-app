@@ -1,0 +1,349 @@
+header{
+    padding: 20px;
+    
+    background-color: rgba(44,62,88,1.0);
+    color:whitesmoke;
+    display: flex;
+        align-items: center;
+    justify-content: space-between;
+
+width:100%;
+    position: fixed;
+}
+header a{
+    padding: 8px 14px;
+    color:whitesmoke;
+        text-decoration: none;
+        transition:all ease 0.5s;
+        border-radius: 25px;
+}
+
+ header h1{
+    font-size:29px;
+    font-weight:800;
+    letter-spacing: 1px;
+ }
+   header a:hover{
+    background-color: yellow;
+    border-radius: 25px;
+   } 
+  
+h1 span{
+    color:yellow;
+}
+
+
+
+*{
+    font-family:'cairo';
+    margin:0;
+    padding:0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    
+
+}
+
+.Hero-Section{
+    background-image: url('blue.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Hero-Section H1{
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 30px;
+    border-radius: 30px;
+    backdrop-filter: blur(20px) ;
+    color: whitesmoke;
+}
+
+@media(max-width:687px){
+    header h1{
+        font-size: 18px;
+    
+    }
+    header a {
+        padding: 6px 8px;
+                font-size: 14px;
+
+    }
+.Hero-Section h1{
+        padding: 24px;
+                font-size:25px;
+
+}
+}
+    
+.Codegy_Services{
+
+    text-align:center;
+    padding:80px 60px;
+}
+
+.Codegy_Services h1{
+    font-weight:800;
+    font-size:36px;
+    margin-bottom:40px;
+}
+.Codegy_Services h1::after{
+    content:"";
+    background-color: #facc15;
+    width: 60px;
+    height: 5px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 25px;
+    
+}
+
+.codegy_services_container {
+    
+    padding:20px;
+        display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-between;
+
+}
+
+.codegy_service_card {
+    
+    width: 28%;
+    margin: 20px;
+    padding: 60px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+.codegy_service_card p{
+    color:#7f8c8d;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.codegy_service_card h1::before{
+    content: "";
+    background-color: #facc15;
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.codegy_service_card:hover h1::before{
+
+transform: scale(1.1);
+}
+
+.codegy_service_card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border: 2px solid #facc15 ;
+}
+.section_adv{
+    text-align: center;
+    padding:80px 60px;
+    background-color: rgba(15,23,42,0.85);
+    color: whitesmoke;
+}
+.section_adv h1{
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.section_main_flex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+.section_card{
+    width:30%;
+        width: 28%;
+    margin: 20px;
+    padding: 60px 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 25px;
+    transition: ease 0.8s;
+transition: 1s ease-in-out;
+}
+.section_card p{
+    color:#7f8c8d;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.section_card i{
+    font-size: 52px;
+    color:whitesmoke;
+}
+.section_card:hover{
+    transform: scale(1.1);
+}/* Mobile 635 من px وأقل */
+
+@media (max-width: 1000px) {
+    .section_card {
+        width: 40%;
+        padding: 40px 10px;
+    }
+    .codegy_service_card {
+        width: 40%;
+    }
+    .section_main_flex{
+        justify-content: center;
+    }
+}
+
+/* Mobile 635 من px وأقل */
+
+@media (max-width: 920px) {
+    .section_card {
+        width: 100%;
+    }
+    .codegy_service_card {
+        width: 100%;
+    }
+}
+.section_card a {
+    color: #facc15;
+    text-decoration: none;
+    border: solid #facc15;
+    padding: 4px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(15, 23, 42, 0.85);
+    display: inline-block;
+}
+.code_map{
+    text-align: center;
+    margin: 50px;
+    width: 100%;
+}
+.code_map iframe{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 70%;
+}
+
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+.contact-us{
+            display: flex;
+        flex-direction: column;
+
+
+}
+.quic-links{
+                display: flex;
+        flex-direction: column;
+        
+
+}
+.send-message{
+                    display: flex;
+
+        flex-direction: column;
+        padding-right: 50px;
+        margin-bottom: 40px;
+}
+.send-message input{
+    display: block;
+    
+}
+    .footer-container h3{
+        color: rgb(246, 202, 26)
+    }
+footer{
+width: 100%;
+background-color: rgb(16, 24, 43);
+padding:15px;
+padding-left: 25px;
+padding-top: 20px;
+}
+
+footer a{
+    color:whitesmoke;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding:10px;
+    padding-right: 20px;
+}
+.contact-us i{
+    color:rgb(246, 202, 26);
+    
+
+}
+.send-message input, .send-message textarea{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+border-radius: 10px;
+width: 300px;
+}
+.bottom-footer{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+    
+    justify-content: center;
+    color:whitesmoke;
+    border-top: 1px solid #02112c;
+    font-size: 12px;
+    margin: 20px;
+    padding-top: 10px;
+    
+}
+.send-message button{
+    background-color: rgb(246, 202, 26);
+border-radius: 25px;
+    width: 100px;
+          align-content: center;
+    align-items: flex-start;
+    justify-content: space-between;
+  margin-left: 20px;
+  font-size: 12px;
+  padding: 5px;
+}
+.contact-us a{
+font-size: 12px;
+}
+.quic-links a{
+    font-size: 12px;
+    padding:5px;
+}
+.send-message h3{
+    padding-left: 20px;
+}
+.send-message button:hover{
+transform: scale(1.05);
+}
+.footer-container a:hover{
+    transform: scale(1.05);
+
+}
+.a_test {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    padding: 10px 12px;
+    background-color: #333A4A;
+    color: whitesmoke;
+}
