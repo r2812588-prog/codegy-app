@@ -1,0 +1,168 @@
+
+
+
+.login-card {
+    background: rgba(26, 32, 44, 0.6);
+    backdrop-filter: blur(12px);
+    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    width: 320px;
+
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-top: 50px;
+    
+}
+
+.login-card h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.login-card p {
+    font-size: 13px;
+    color: #a0aec0;
+    margin-bottom: 30px;
+}
+
+/* حقول الإدخال */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    background: #e2e8f0;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    margin:15px;
+}
+
+.input-group input::placeholder {
+    color: #718096;
+}
+
+/* زر تسجيل الدخول */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1a202c;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #e0a800;
+}
+
+.forgot-password {
+    margin-top: 20px;
+}
+
+.forgot-password a {
+    color: #a0aec0;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.forgot-password a:hover {
+    color: #fff;
+}
+header{
+    padding: 20px;
+    
+    background-color: rgba(44,62,88,1.0);
+    color:whitesmoke;
+    display: flex;
+        align-items: center;
+    justify-content: space-between;
+
+width:100%;}
+    
+header a{
+    padding: 8px 14px;
+    color:whitesmoke;
+        text-decoration: none;
+        transition:all ease 0.5s;
+        border-radius: 25px;
+}
+
+ header h1{
+    font-size:29px;
+    font-weight:800;
+    letter-spacing: 1px;
+ }
+  
+h1 span{
+    color:yellow;
+}
+
+
+
+
+    
+
+
+
+
+    
+
+
+.Hero-Section H1{
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 30px;
+    border-radius: 30px;
+    backdrop-filter: blur(20px) ;
+    color: whitesmoke;
+}
+
+@media(max-width:687px){
+    header h1{
+        font-size: 18px;
+    
+    }
+    header a {
+        padding: 6px 8px;
+                font-size: 14px;
+
+    }
+.Hero-Section h1{
+        padding: 24px;
+                font-size:25px;
+
+}
+}
+    body{
+    display: flex;
+    flex-direction: column; 
+        align-items: center;  
+            background-image: url('blue.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+        
+    }
+    *{
+        box-sizing: border-box;
+        
+    }
