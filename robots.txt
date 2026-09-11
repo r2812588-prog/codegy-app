@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /task.html
+
+Sitemap: https://codegy-tech.com/sitemap.xml

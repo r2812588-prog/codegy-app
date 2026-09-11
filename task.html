@@ -1,58 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>codegy</title>
-    <link rel="stylesheet" href="task.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
-<link rel="icon" href="icon.jpeg">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Secure sign in to your Codegy workspace."><title>Sign in | Codegy</title><meta name="robots" content="noindex, nofollow"><link rel="canonical" href="https://codegy-tech.com/task.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="icon.jpeg"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"><link rel="stylesheet" href="task.css">
 </head>
-<body>
-    
-<header>
-    <h1><span>c</span>odegy-for software</h1>
-    
-    <div>
-        <a href="">home</a>
-        <a href="">about us</a>
-        <a href="">services</a>
-        <a href="">protofolio</a>
-    </div>
-
-</header>
+<body><main class="login-page">
+  <div class="topbar"><a class="brand" href="index.html" aria-label="Back to Codegy home">code<span>gy</span><b>.</b></a><label class="language"><i class="fa-solid fa-globe"></i><select id="lang" aria-label="Language"><option value="en">EN</option><option value="ar">العربية</option><option value="fr">FR</option><option value="tr">TR</option></select></label></div>
+  <section class="login-layout" aria-labelledby="login-title"><aside class="welcome-panel"><p class="eyebrow"><span></span><b data-t="workspace">Codegy workspace</b></p><h1 data-h="welcome">Welcome <em>back.</em></h1><p data-t="welcomeText">Sign in to continue building digital products with clarity and purpose.</p><div class="welcome-mark"><i class="fa-solid fa-sparkles"></i><span data-t="mark">Thoughtful technology, built together.</span></div></aside>
+  <div class="login-card"><a class="back-link" href="index.html"><i class="fa-solid fa-arrow-left"></i><span data-t="back">Back to website</span></a><div class="card-heading"><p class="eyebrow"><b data-t="access">Account access</b></p><h2 id="login-title" data-t="title">Sign in to Codegy</h2><p data-t="intro">Enter your details to access your account.</p></div><form action="#" method="post"><label><span data-t="email">Email address</span><span class="field"><i class="fa-regular fa-envelope"></i><input type="email" name="email" autocomplete="email" placeholder="you@company.com" data-p="emailPlaceholder" required></span></label><label><span data-t="password">Password</span><span class="field"><i class="fa-solid fa-lock"></i><input type="password" name="password" autocomplete="current-password" placeholder="Enter your password" data-p="passwordPlaceholder" aria-describedby="password-checks" minlength="8" required></span></label><div class="password-checks" id="password-checks" aria-live="polite"><p data-t="passwordRulesTitle">Password must include:</p><ul><li data-rule="length"><i class="fa-regular fa-circle"></i><span data-t="passwordRuleLength">At least 8 characters</span></li><li data-rule="upper"><i class="fa-regular fa-circle"></i><span data-t="passwordRuleUpper">One uppercase letter</span></li><li data-rule="lower"><i class="fa-regular fa-circle"></i><span data-t="passwordRuleLower">One lowercase letter</span></li><li data-rule="number"><i class="fa-regular fa-circle"></i><span data-t="passwordRuleNumber">One number</span></li><li data-rule="special"><i class="fa-regular fa-circle"></i><span data-t="passwordRuleSpecial">One special character</span></li></ul></div><div class="form-row"><label class="remember"><input type="checkbox" name="remember"><span data-t="remember">Remember me</span></label><a href="mailto:info@codegy-tech.com?subject=Password%20reset%20request" data-t="forgot">Forgot password?</a></div><button class="login-btn" type="submit"><span data-t="signin">Sign in</span><i class="fa-solid fa-arrow-right"></i></button></form><p class="signup-text"><span data-t="need">Need an account?</span> <a href="mailto:info@codegy-tech.com" data-t="contact">Contact us</a></p></div></section>
+  <p class="copyright" data-t="copyright">© 2026 Codegy. All rights reserved.</p>
+</main><script>
+const translations={ar:{workspace:'مساحة عمل Codegy',welcome:'مرحبًا <em>بعودتك.</em>',welcomeText:'سجل الدخول لمواصلة بناء منتجات رقمية واضحة وهادفة.',mark:'تقنية مدروسة، نبنيها معًا.',back:'العودة إلى الموقع',access:'الوصول إلى الحساب',title:'تسجيل الدخول إلى Codegy',intro:'أدخل بياناتك للوصول إلى حسابك.',email:'البريد الإلكتروني',emailPlaceholder:'you@company.com',password:'كلمة المرور',passwordPlaceholder:'أدخل كلمة المرور',remember:'تذكرني',forgot:'هل نسيت كلمة المرور؟',signin:'تسجيل الدخول',need:'ليس لديك حساب؟',contact:'تواصل معنا',copyright:'© 2026 Codegy. جميع الحقوق محفوظة.'},fr:{workspace:'Espace Codegy',welcome:'Bon <em>retour.</em>',welcomeText:'Connectez-vous pour continuer à créer des produits numériques clairs et utiles.',mark:'Une technologie attentive, construite ensemble.',back:'Retour au site',access:'Accès au compte',title:'Connexion à Codegy',intro:'Entrez vos informations pour accéder à votre compte.',email:'Adresse e-mail',emailPlaceholder:'vous@entreprise.com',password:'Mot de passe',passwordPlaceholder:'Entrez votre mot de passe',remember:'Se souvenir de moi',forgot:'Mot de passe oublié ?',signin:'Connexion',need:'Besoin d’un compte ?',contact:'Nous contacter',copyright:'© 2026 Codegy. Tous droits réservés.'},tr:{workspace:'Codegy çalışma alanı',welcome:'Tekrar <em>hoş geldiniz.</em>',welcomeText:'Net ve amaç odaklı dijital ürünler üretmeye devam etmek için giriş yapın.',mark:'Özenli teknoloji, birlikte inşa edildi.',back:'Siteye dön',access:'Hesap erişimi',title:'Codegy’ye giriş yapın',intro:'Hesabınıza erişmek için bilgilerinizi girin.',email:'E-posta adresi',emailPlaceholder:'siz@firma.com',password:'Parola',passwordPlaceholder:'Parolanızı girin',remember:'Beni hatırla',forgot:'Parolanızı mı unuttunuz?',signin:'Giriş yap',need:'Hesaba mı ihtiyacınız var?',contact:'Bize ulaşın',copyright:'© 2026 Codegy. Tüm hakları saklıdır.'}};
+const picker=document.querySelector('#lang');function setLanguage(lang){const d=translations[lang]||{};document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';document.querySelectorAll('[data-t]').forEach(el=>{const key=el.dataset.t;el.textContent=d[key]||(el.dataset.en||(el.dataset.en=el.textContent))});document.querySelectorAll('[data-h]').forEach(el=>{const key=el.dataset.h;el.innerHTML=d[key]||(el.dataset.en||(el.dataset.en=el.innerHTML))});document.querySelectorAll('[data-p]').forEach(el=>{el.placeholder=d[el.dataset.p]||el.placeholder});localStorage.setItem('codegy-language',lang)}const passwordInput=document.querySelector('input[name="password"]');const passwordChecks=[...document.querySelectorAll('[data-rule]')];const passwordValidators={length:value=>value.length>=8,upper:value=>/[A-Z]/.test(value),lower:value=>/[a-z]/.test(value),number:value=>/\d/.test(value),special:value=>/[^A-Za-z0-9]/.test(value)};function updatePasswordValidation(){const value=passwordInput.value;let allValid=true;passwordChecks.forEach(item=>{const rule=item.dataset.rule;const ok=passwordValidators[rule](value);const icon=item.querySelector('i');item.classList.toggle('is-valid',ok);item.classList.toggle('is-invalid',!ok&&value.length>0);icon.className=ok?'fa-solid fa-circle-check':'fa-regular fa-circle';if(!ok) allValid=false;});return allValid;}if(passwordInput){passwordInput.addEventListener('input',updatePasswordValidation);const form=document.querySelector('form');form.addEventListener('submit',event=>{if(!updatePasswordValidation()){event.preventDefault();passwordInput.focus();passwordInput.setCustomValidity('Password does not meet the requirements.');passwordInput.reportValidity();passwordInput.setCustomValidity('');}});}picker.value=localStorage.getItem('codegy-language')||'en';setLanguage(picker.value);picker.addEventListener('change',e=>setLanguage(e.target.value));
+</script></body></html>
 
 
 
-<div class="login-card">
-    <h2>Welcome To Codegy</h2>
-    <p>please Enter your Email To ligin</p>
-    
-    <form>
-        <label class="input-group">
-            <input type="email" placeholder="Enter Email" required>
-        </label>
-        
-        <label class="input-group">
-            <input type="password" placeholder="Enter Password" required>
-        </label>
-        
-        <button type="submit" class="login-btn">Login</button>
-        
-        <div class="forgot-password">
-            <a href="#">Forgot Password?</a>
-        </div>
-    </form>
-</div>
-
-
-
-
-</body>
-
-    
-    
-
-    
-
-</html>
